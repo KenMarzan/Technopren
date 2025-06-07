@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AgriGrow - Growing Your Agricultural Success</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center space-x-2">
+            <svg
+              class="w-8 h-8 text-green-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 3l14 9-14 9V3z"
+              ></path>
+            </svg>
+            <span class="text-xl font-bold text-gray-900">AgriGrow</span>
+          </div>
+
+          <nav class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Home</a
+            >
+            <a
+              href="#services"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Services</a
+            >
+            <a
+              href="#products"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Products</a
+            >
+            <a
+              href="#about"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >About</a
+            >
+            <a
+              href="#contact"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Contact</a
+            >
+          </nav>
+
+          <button
+            class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200 font-medium"
+          >
+            Get Started
+          </button>
+
+          <button id="mobile-menu-btn" class="md:hidden p-2">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden pb-4">
+          <div class="flex flex-col space-y-2">
+            <a
+              href="#home"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Home</a
+            >
+            <a
+              href="#services"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Services</a
+            >
+            <a
+              href="#products"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Products</a
+            >
+            <a
+              href="#about"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >About</a
+            >
+            <a
+              href="#contact"
+              class="font-medium text-gray-700 hover:text-green-600 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-green-50"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="relative bg-gradient-to-br from-green-50 to-emerald-100 py-20"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="space-y-8">
+            <div class="space-y-4">
+              <h1
+                class="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+              >
+                Growing Your
+                <span class="text-green-600 block">Agricultural Success</span>
+              </h1>
+              <p class="text-xl text-gray-600 leading-relaxed">
+                Empowering farmers with innovative solutions, expert guidance,
+                and sustainable practices to maximize crop yields and build a
+                prosperous future.
+              </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+              <button
+                class="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              >
+                Start Your Journey
+              </button>
+              <button
+                class="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-200 font-semibold text-lg"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-8">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-green-600">500+</div>
+                <div class="text-sm text-gray-600 mt-1">Happy Farmers</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-green-600">15+</div>
+                <div class="text-sm text-gray-600 mt-1">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-green-600">1000+</div>
+                <div class="text-sm text-gray-600 mt-1">Acres Managed</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-green-600">98%</div>
+                <div class="text-sm text-gray-600 mt-1">Success Rate</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+              <img
+                src="https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Modern farming landscape"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div
+              class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg"
+            >
+              <div class="flex items-center space-x-3">
+                <svg
+                  class="w-8 h-8 text-yellow-500"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <div>
+                  <div class="font-semibold text-gray-900">Award Winning</div>
+                  <div class="text-sm text-gray-600">
+                    Agricultural Solutions
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Comprehensive agricultural solutions designed to help you achieve
+            optimal results and sustainable growth in your farming operations.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-2"
+          >
+            <div
+              class="mb-6 p-3 bg-green-50 rounded-lg w-fit group-hover:bg-green-100 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              Crop Consulting
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Expert advice on crop selection, planting, and harvest
+              optimization for maximum yield.
+            </p>
+            <button
+              class="flex items-center text-green-600 font-medium hover:text-green-700 transition-colors duration-200"
+            >
+              Learn More
+              <svg
+                class="w-4 h-4 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-2"
+          >
+            <div
+              class="mb-6 p-3 bg-green-50 rounded-lg w-fit group-hover:bg-green-100 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              Equipment Solutions
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Modern farming equipment and machinery to enhance productivity and
+              efficiency.
+            </p>
+            <button
+              class="flex items-center text-green-600 font-medium hover:text-green-700 transition-colors duration-200"
+            >
+              Learn More
+              <svg
+                class="w-4 h-4 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-2"
+          >
+            <div
+              class="mb-6 p-3 bg-green-50 rounded-lg w-fit group-hover:bg-green-100 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              Sustainable Farming
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Eco-friendly practices and organic solutions for sustainable
+              agriculture.
+            </p>
+            <button
+              class="flex items-center text-green-600 font-medium hover:text-green-700 transition-colors duration-200"
+            >
+              Learn More
+              <svg
+                class="w-4 h-4 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Featured Products
+          </h2>
+          <p class="text-xl text-gray-600">
+            Premium agricultural products for modern farming
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group"
+          >
+            <div class="aspect-video overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt="Organic Seeds"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Organic Seeds
+              </h3>
+              <p class="text-gray-600 mb-4">
+                High-quality organic seeds for various crops
+              </p>
+              <button
+                class="text-green-600 font-medium hover:text-green-700 transition-colors duration-200"
+              >
+                View Details →
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group"
+          >
+            <div class="aspect-video overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt="Bio Fertilizers"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Bio Fertilizers
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Eco-friendly fertilizers for sustainable growth
+              </p>
+              <button
+                class="text-green-600 font-medium hover:text-green-700 transition-colors duration-200"
+              >
+                View Details →
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group"
+          >
+            <div class="aspect-video overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/1595108/pexels-photo-1595108.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt="Farming Tools"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Farming Tools
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Modern tools for efficient farming operations
+              </p>
+              <button
+                class="text-green-600 font-medium hover:text-green-700 transition-colors duration-200"
+              >
+                View Details →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <h2 class="text-4xl font-bold text-gray-900">
+              Why Choose AgriGrow?
+            </h2>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              With over 15 years of experience in agricultural innovation, we've
+              helped thousands of farmers achieve remarkable success through our
+              proven methodologies and cutting-edge solutions.
+            </p>
+
+            <div class="space-y-4">
+              <div class="flex items-start space-x-3">
+                <div
+                  class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5"
+                >
+                  <div class="w-2 h-2 bg-green-600 rounded-full"></div>
+                </div>
+                <span class="text-gray-700"
+                  >Expert agricultural consultants with proven track
+                  records</span
+                >
+              </div>
+              <div class="flex items-start space-x-3">
+                <div
+                  class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5"
+                >
+                  <div class="w-2 h-2 bg-green-600 rounded-full"></div>
+                </div>
+                <span class="text-gray-700"
+                  >Sustainable and eco-friendly farming practices</span
+                >
+              </div>
+              <div class="flex items-start space-x-3">
+                <div
+                  class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5"
+                >
+                  <div class="w-2 h-2 bg-green-600 rounded-full"></div>
+                </div>
+                <span class="text-gray-700"
+                  >24/7 support and guidance for all your farming needs</span
+                >
+              </div>
+              <div class="flex items-start space-x-3">
+                <div
+                  class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-0.5"
+                >
+                  <div class="w-2 h-2 bg-green-600 rounded-full"></div>
+                </div>
+                <span class="text-gray-700"
+                  >Latest technology integration for maximum efficiency</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img
+              src="https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Agricultural team"
+              class="rounded-2xl shadow-2xl"
+            />
+            <div
+              class="absolute -bottom-6 -right-6 bg-green-600 text-white p-6 rounded-xl shadow-lg"
+            >
+              <div class="flex items-center space-x-3">
+                <svg
+                  class="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"
+                  ></path>
+                </svg>
+                <div>
+                  <div class="font-semibold">500+</div>
+                  <div class="text-sm opacity-90">Satisfied Clients</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-green-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-white mb-4">Get In Touch</h2>
+          <p class="text-xl text-green-100">
+            Ready to transform your agricultural operations?
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+          <div class="text-center text-white">
+            <div
+              class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold mb-2">Call Us</h3>
+            <p class="text-green-100">+1 (555) 123-4567</p>
+          </div>
+
+          <div class="text-center text-white">
+            <div
+              class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold mb-2">Email Us</h3>
+            <p class="text-green-100">info@agrigrow.com</p>
+          </div>
+
+          <div class="text-center text-white">
+            <div
+              class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="font-semibold mb-2">Visit Us</h3>
+            <p class="text-green-100">123 Farm Road, Agriculture City</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a
+            href="contact.html"
+            class="bg-white text-green-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors duration-200 font-semibold text-lg shadow-lg inline-block"
+          >
+            Schedule Consultation
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="space-y-4">
+            <div class="flex items-center space-x-2">
+              <svg
+                class="w-8 h-8 text-green-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 3l14 9-14 9V3z"
+                ></path>
+              </svg>
+              <span class="text-xl font-bold">AgriGrow</span>
+            </div>
+            <p class="text-gray-400">
+              Empowering farmers with innovative agricultural solutions for a
+              sustainable future.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4">Services</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Crop Consulting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Equipment Solutions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Sustainable Farming</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4">Company</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Our Team</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-4">Support</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="hover:text-white transition-colors"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2024 AgriGrow. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
